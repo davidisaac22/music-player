@@ -1,0 +1,32 @@
+.song-container {
+    width: 100%;
+    max-width: 720px;
+    margin: 2rem auto 0;
+    padding: 0 15px;
+    text-align: center;
+    img {
+        width: 100%;
+        max-width: 320px;
+        border-radius: 50%;
+    }
+    h2 {
+        margin-top: 1.5rem;
+        font-size: 2rem;
+    }
+    h3 {
+        margin-top: 1.2rem;
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .song-container {
+        h2 {
+            font-size: 1.6rem;
+        }
+        img {
+            width: 60%;
+        }
+    }
+}
